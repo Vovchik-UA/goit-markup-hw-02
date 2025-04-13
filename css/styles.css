@@ -14,13 +14,17 @@
 
 body {
     font-family:"Roboto", sans-serif;
-    background-color: var(--white);
+    color: var(--slate);
 }
 
 .header-page .home-link {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-style: bold;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--iris);
     text-decoration: none;
 }
@@ -55,6 +59,15 @@ body {
     color: var(--ocean);
     text-decoration: none;
 }
+.header-nav .link:focus {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+    text-decoration: none;
+}
 
 .header-address .link {
     font-family: inherit;
@@ -63,6 +76,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--slate);
     text-decoration: none;
+    font-style: normal
 }
 .header-address .link:hover {
     font-family: inherit;
@@ -71,6 +85,16 @@ body {
     letter-spacing: 0.02em;
     color: var(--ocean);
     text-decoration: none;
+    font-style: normal
+}
+.header-address .link:focus {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+    text-decoration: none;
+    font-style: normal
 }
 
 .section-hero {
@@ -79,7 +103,7 @@ body {
 
 .section-hero .page-title {
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
@@ -92,6 +116,9 @@ body {
     width: 169px;
     height: 56px;
     background: var(--iris);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--white);
     cursor: pointer;
 }
@@ -102,6 +129,21 @@ body {
     width: 169px;
     height: 56px;
     background: var(--ocean);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+}
+.section-hero .page-order-btn:focus {
+    font-family: inherit;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    background: var(--ocean);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--white);
 }
 
@@ -141,7 +183,8 @@ body {
 
 .section-team .section-title{
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
@@ -166,8 +209,9 @@ body {
 
 .section-portfolio .section-title {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: var(--navy-blue);
 }
@@ -185,8 +229,12 @@ body {
 
 .footer-page .home-link {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-style: bold;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--iris);
     text-decoration: none;
 }
