@@ -68,6 +68,10 @@ body {
     text-decoration: none;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .header-address .address-list .link {
     font-family: inherit;
     font-size: 16px;
