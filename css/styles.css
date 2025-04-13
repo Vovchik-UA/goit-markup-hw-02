@@ -15,6 +15,7 @@
 body {
     font-family:"Roboto", sans-serif;
     color: var(--slate);
+    background-color: var(--white);
 }
 
 .header-page .home-link {
@@ -69,7 +70,7 @@ body {
     text-decoration: none;
 }
 
-.header-address .link {
+.header-addres .link {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
@@ -78,7 +79,7 @@ body {
     text-decoration: none;
     font-style: normal
 }
-.header-address .link:hover {
+.header-addres .link:hover {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
@@ -87,7 +88,7 @@ body {
     text-decoration: none;
     font-style: normal
 }
-.header-address .link:focus {
+.header-addres .link:focus {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
@@ -148,16 +149,7 @@ body {
 }
 
 .section-benefits .section-title{
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+    visibility: hidden;
 }
 
 .list-title {
